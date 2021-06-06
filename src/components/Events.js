@@ -133,12 +133,14 @@ class LoadModel {
     this.btnContainer.style.opacity = 0;
   };
   handleCloseLeftSide = () => {
-    this.leftSide.style = "-50%";
+    if (window.innerWidth <= 768) this.leftSide.style = "-100%";
+    else this.leftSide.style = "-50%";
     this.sidebar.style.zIndex = 1;
     this.btnContainer.style.opacity = 1;
   };
   handleCloseRightSide = () => {
-    this.rightSide.style.right = "-50%";
+    if (window.innerWidth <= 768) this.rightSide.style.right = "-100%";
+    else this.rightSide.style.right = "-50%";
     this.sidebar.style.zIndex = 1;
     this.btnContainer.style.opacity = 1;
   };
