@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import LoadModel from "./LoadModel";
+import Events from "./Events";
 
 function Car() {
   useEffect(() => {
-    const car = new LoadModel();
+    const car = new Events();
     car.start();
     car.render();
   }, []);
