@@ -4,7 +4,7 @@ function Btn() {
       <div className="subContainer">
         <div></div>
         <button className="openBtn" id="leftBtn">
-          Front
+          Click
         </button>
         <div></div>
         <div></div>
@@ -12,7 +12,7 @@ function Btn() {
       <div className="subContainer">
         <div></div>
         <button className="openBtn" id="rightBtn">
-          Back
+          Click
         </button>
         <div></div>
         <div></div>
